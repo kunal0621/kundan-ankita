@@ -12,7 +12,7 @@ This repository is customized for **Kundan & Ankita** with the **Groom details p
 
 ## ✨ Features
 
-- **🤵 Groom Details First**: Kundan & Ankita. Groom's name and illustrated portrait are positioned first throughout the entire invitation (Hero, Portraits, Royal Seal, Loader, Blessings, Calendar, and Share Dialog).
+- **🤵 Groom Details First**: Kundan Singh & Ankita Singh. Groom's name and illustrated portrait are positioned first throughout the entire invitation (Hero, Portraits, Royal Seal, Loader, Blessings, Calendar, and Share Dialog).
 - **📅 4-Function Itinerary Timeline**:
   - **Day 1 (Tue, 01 Dec)**: Haldi Ceremony (Morning & Afternoon)
   - **Day 2 (Wed, 02 Dec)**: Mehandi & Sangeet Night (Evening)
@@ -59,20 +59,20 @@ You can edit your wedding details in either [`config.json`](config.json) (for we
 {
   "meta": {
     "title": "Kundan & Ankita · Shubh Vivah",
-    "description": "You are invited to the wedding celebrations of Kundan & Ankita · 1–5 December 2026"
+    "description": "You are invited to the wedding celebrations of Kundan Singh & Ankita Singh · 1–5 December 2026"
   },
   "couple": {
     "groom": {
-      "name": "Kundan",
+      "name": "Kundan Singh",
       "heroName": "Kundan",
-      "hindi": "कुंदन",
+      "hindi": "कुंदन सिंह",
       "role": "The Groom",
       "portrait": ""
     },
     "bride": {
-      "name": "Ankita",
+      "name": "Ankita Singh",
       "heroName": "Ankita",
-      "hindi": "अंकिता",
+      "hindi": "अंकिता सिंह",
       "role": "The Bride",
       "portrait": ""
     },
