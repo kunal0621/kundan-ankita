@@ -48,7 +48,7 @@
   },
   "venue": {
     "name": "Wedding Celebrations · Jharkhand",
-    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Baghmara Thakur bari, Baghmara (828306)\n7 Dec (Barat): BHAGWAN PALACE, Deoghar (814112)",
+    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Thakur Badi, Baghmara (828306)\n7 Dec (Barat): BHAGWAN PALACE, Deoghar (814112)",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Riwaaz+-+Banquet%2C+Shyamdih+Chowk%2C+Katras%2C+Jharkhand+828114",
     "locations": [
       {
@@ -58,13 +58,13 @@
       },
       {
         "label": "5 Dec · Haldi Ceremony",
-        "venue": "Baghmara Thakur bari, Q6V3+CP6, Baghmara, Jharkhand 828306",
-        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Q6V3%2BCP6%2C+Baghmara+Thakur+bari%2C+Baghmara%2C+Jharkhand+828306"
+        "venue": "Thakur Badi, Q6V3+CP6, Baghmara, Jharkhand 828306",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thakur+Badi%2C+Q6V3%2BCP6%2C+Baghmara%2C+Jharkhand+828306"
       },
       {
         "label": "6 Dec · Mehandi & Sangeet",
-        "venue": "Baghmara Thakur bari, Q6V3+CP6, Baghmara, Jharkhand 828306",
-        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Q6V3%2BCP6%2C+Baghmara+Thakur+bari%2C+Baghmara%2C+Jharkhand+828306"
+        "venue": "Thakur Badi, Q6V3+CP6, Baghmara, Jharkhand 828306",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thakur+Badi%2C+Q6V3%2BCP6%2C+Baghmara%2C+Jharkhand+828306"
       },
       {
         "label": "7 Dec · Barat & Shubh Vivah",
@@ -119,8 +119,8 @@
           "desc": "A sunshine-soaked celebration of turmeric, fragrant marigolds, and joyous laughter as loved ones bless the couple with a golden glow.",
           "descHi": "हल्दी, गेंदे के फूलों और हँसी-ख़ुशी से भरी पावन रस्म, जब सभी प्रियजन मिलकर वर-वधू को शुभ आशीर्वाद व स्नेह देंगे।",
           "dress": "Shades of Yellow",
-          "venue": "Baghmara Thakur bari, Q6V3+CP6, Baghmara, Jharkhand 828306",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Q6V3%2BCP6%2C+Baghmara+Thakur+bari%2C+Baghmara%2C+Jharkhand+828306"
+          "venue": "Thakur Badi, Q6V3+CP6, Baghmara, Jharkhand 828306",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thakur+Badi%2C+Q6V3%2BCP6%2C+Baghmara%2C+Jharkhand+828306"
         }
       ]
     },
@@ -144,8 +144,8 @@
           "desc": "An enchanting evening of intricate henna artistry, foot-tapping beats of the dhol, dance performances, and musical celebration with family and friends.",
           "descHi": "हाथों में रचने वाली मेहंदी के रंगों, ढोल की थाप, मधुर संगीत और अपनों के संग झूमते-गाते जश्न की एक हसीन व यादगार शाम।",
           "dress": "Festive Green & Traditional Glam",
-          "venue": "Baghmara Thakur bari, Q6V3+CP6, Baghmara, Jharkhand 828306",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Q6V3%2BCP6%2C+Baghmara+Thakur+bari%2C+Baghmara%2C+Jharkhand+828306"
+          "venue": "Thakur Badi, Q6V3+CP6, Baghmara, Jharkhand 828306",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thakur+Badi%2C+Q6V3%2BCP6%2C+Baghmara%2C+Jharkhand+828306"
         }
       ]
     },

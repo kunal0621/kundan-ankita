@@ -4,8 +4,8 @@ A luxury, interactive digital Indian wedding card web application inspired by tr
 
 This repository is customized for **Kundan & Ankita** with the **Groom details positioned first**, and upgraded with a **dynamic configuration system** (`config.json` & `config.js`) supporting multi-day celebrations:
 - **30 Nov**: Tilak Ceremony (The Riwaaz - Banquet, Katras)
-- **05 Dec**: Haldi Ceremony (Baghmara Thakur bari, Baghmara)
-- **06 Dec**: Mehandi & Sangeet Night (Baghmara Thakur bari, Baghmara)
+- **05 Dec**: Haldi Ceremony (Thakur Badi, Baghmara)
+- **06 Dec**: Mehandi & Sangeet Night (Thakur Badi, Baghmara)
 - **07 Dec**: Barat & Shubh Vivah (BHAGWAN PALACE, Deoghar)
 
 ---
@@ -103,12 +103,12 @@ You can edit your wedding details in either [`config.json`](config.json) (for we
   },
   "venue": {
     "name": "Wedding Celebrations · Jharkhand",
-    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Baghmara Thakur bari, Baghmara (828306)\n7 Dec (Barat): BHAGWAN PALACE, Deoghar (814112)"
+    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Thakur Badi, Baghmara (828306)\n7 Dec (Barat): BHAGWAN PALACE, Deoghar (814112)"
   },
   "days": [
     // Day 1: Tilak (30 Nov) - The Riwaaz, Katras
-    // Day 2: Haldi (05 Dec) - Baghmara Thakur bari
-    // Day 3: Mehandi & Sangeet (06 Dec) - Baghmara Thakur bari
+    // Day 2: Haldi (05 Dec) - Thakur Badi, Baghmara
+    // Day 3: Mehandi & Sangeet (06 Dec) - Thakur Badi, Baghmara
     // Day 4: Barat & Shubh Vivah (07 Dec) - BHAGWAN PALACE, Deoghar
   ]
 }
