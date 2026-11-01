@@ -6,7 +6,7 @@ This repository is customized for **Kundan & Ankita** with the **Groom details p
 - **30 Nov**: Tilak Ceremony (The Riwaaz - Banquet, Katras)
 - **05 Dec**: Haldi Ceremony (Baghmara Thakur bari, Baghmara)
 - **06 Dec**: Mehandi & Sangeet Night (Baghmara Thakur bari, Baghmara)
-- **07 Dec**: Barat & Shubh Vivah (Baba Baidyanath Mandir Campus, Deoghar)
+- **07 Dec**: Barat & Shubh Vivah (BHAGWAN PALACE, Deoghar)
 
 ---
 
@@ -103,13 +103,13 @@ You can edit your wedding details in either [`config.json`](config.json) (for we
   },
   "venue": {
     "name": "Wedding Celebrations · Jharkhand",
-    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Baghmara Thakur bari, Baghmara (828306)\n7 Dec (Barat): Baba Baidyanath Temple Campus, Deoghar (814112)"
+    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Baghmara Thakur bari, Baghmara (828306)\n7 Dec (Barat): BHAGWAN PALACE, Deoghar (814112)"
   },
   "days": [
     // Day 1: Tilak (30 Nov) - The Riwaaz, Katras
     // Day 2: Haldi (05 Dec) - Baghmara Thakur bari
     // Day 3: Mehandi & Sangeet (06 Dec) - Baghmara Thakur bari
-    // Day 4: Barat & Shubh Vivah (07 Dec) - Baba Baidyanath Mandir Campus, Deoghar
+    // Day 4: Barat & Shubh Vivah (07 Dec) - BHAGWAN PALACE, Deoghar
   ]
 }
 ```

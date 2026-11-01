@@ -49,7 +49,7 @@ window.CONFIG = {
   },
   "venue": {
     "name": "Wedding Celebrations · Jharkhand",
-    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Baghmara Thakur bari, Baghmara (828306)\n7 Dec (Barat): Baba Baidyanath Temple Campus, Deoghar (814112)",
+    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Baghmara Thakur bari, Baghmara (828306)\n7 Dec (Barat): BHAGWAN PALACE, Deoghar (814112)",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Riwaaz+-+Banquet%2C+Shyamdih+Chowk%2C+Katras%2C+Jharkhand+828114",
     "locations": [
       {
@@ -69,8 +69,8 @@ window.CONFIG = {
       },
       {
         "label": "7 Dec · Barat & Shubh Vivah",
-        "venue": "Baba Baidyanath Temple Administrative Building, Baba Mandir Campus, Shivganga Muhalla, Deoghar, Jharkhand 814112",
-        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Baba+Baidyanath+Temple+Administrative+Building%2C+Baba+Mandir+Campus%2C+Shivganga+Muhalla%2C+Deoghar%2C+Jharkhand+814112"
+        "venue": "BHAGWAN PALACE, FPM5+CC6 B, Shahid Ashram Rd, Rajendra Nagar, Jhoushagari, Deoghar, Jharkhand 814112",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=BHAGWAN+PALACE%2C+FPM5%2BCC6+B%2C+Shahid+Ashram+Rd%2C+Rajendra+Nagar%2C+Jhoushagari%2C+Deoghar%2C+Jharkhand+814112"
       }
     ]
   },
@@ -170,8 +170,8 @@ window.CONFIG = {
           "desc": "The grand Barat procession followed by sacred wedding vows and Vedic rituals in the holy aura of Baba Baidyanath Dham.",
           "descHi": "बाबा बैद्यनाथ जी के पावन धाम में भव्य बारात आगमन, वरमाला एवं सात फेरों के साथ पावन परिणय सूत्र में बंधन।",
           "dress": "Royal Indian Ethnic & Traditional Finery",
-          "venue": "Baba Baidyanath Temple Administrative Building, Baba Mandir Campus, Shivganga Muhalla, Deoghar, Jharkhand 814112",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Baba+Baidyanath+Temple+Administrative+Building%2C+Baba+Mandir+Campus%2C+Shivganga+Muhalla%2C+Deoghar%2C+Jharkhand+814112"
+          "venue": "BHAGWAN PALACE, FPM5+CC6 B, Shahid Ashram Rd, Rajendra Nagar, Jhoushagari, Deoghar, Jharkhand 814112",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=BHAGWAN+PALACE%2C+FPM5%2BCC6+B%2C+Shahid+Ashram+Rd%2C+Rajendra+Nagar%2C+Jhoushagari%2C+Deoghar%2C+Jharkhand+814112"
         }
       ]
     }
