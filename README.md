@@ -3,10 +3,10 @@
 A luxury, interactive digital Indian wedding card web application inspired by traditional royal aesthetics and Gond folk art.
 
 This repository is customized for **Kundan & Ankita** with the **Groom details positioned first**, and upgraded with a **dynamic configuration system** (`config.json` & `config.js`) supporting multi-day celebrations:
-- **Day 1 (01 Dec)**: Haldi Ceremony
-- **Day 2 (02 Dec)**: Mehandi & Sangeet Night
-- **Day 3 (03 Dec)**: Shaadi & Phere (Wedding Ceremony)
-- **Day 5 (05 Dec)**: Grand Wedding Reception
+- **30 Nov**: Tilak Ceremony (The Riwaaz - Banquet, Katras)
+- **05 Dec**: Haldi Ceremony (Baghmara Thakur bari, Baghmara)
+- **06 Dec**: Mehandi & Sangeet Night (Baghmara Thakur bari, Baghmara)
+- **07 Dec**: Barat & Shubh Vivah (Baba Baidyanath Mandir Campus, Deoghar)
 
 ---
 
@@ -14,10 +14,10 @@ This repository is customized for **Kundan & Ankita** with the **Groom details p
 
 - **🤵 Groom Details First**: Kundan Singh & Ankita Singh. Groom's name and illustrated portrait are positioned first throughout the entire invitation (Hero, Portraits, Royal Seal, Loader, Blessings, Calendar, and Share Dialog).
 - **📅 4-Function Itinerary Timeline**:
-  - **Day 1 (Tue, 01 Dec)**: Haldi Ceremony (Morning & Afternoon)
-  - **Day 2 (Wed, 02 Dec)**: Mehandi & Sangeet Night (Evening)
-  - **Day 3 (Thu, 03 Dec)**: Shaadi & Phere (Auspicious Wedding Muhurat)
-  - **Day 5 (Sat, 05 Dec)**: Grand Wedding Reception (Royal Evening Banquet)
+  - **Day 1 (Mon, 30 Nov)**: Tilak Ceremony
+  - **Day 2 (Sat, 05 Dec)**: Haldi Ceremony
+  - **Day 3 (Sun, 06 Dec)**: Mehandi & Sangeet Night
+  - **Day 4 (Mon, 07 Dec)**: Barat & Shubh Vivah
   - Interactive multi-tab switcher with spring physics pill animation
   - Bilingual English and Hindi descriptions
   - Color-coded ceremony badges with custom vector SVG icons (including dedicated henna mandala for Mehandi)
@@ -59,7 +59,7 @@ You can edit your wedding details in either [`config.json`](config.json) (for we
 {
   "meta": {
     "title": "Kundan & Ankita · Shubh Vivah",
-    "description": "You are invited to the wedding celebrations of Kundan Singh & Ankita Singh · 1–5 December 2026"
+    "description": "You are invited to the wedding celebrations of Kundan Singh & Ankita Singh · 30 November – 7 December 2026"
   },
   "couple": {
     "groom": {
@@ -81,36 +81,35 @@ You can edit your wedding details in either [`config.json`](config.json) (for we
   "wedding": {
     "topBlessing": "॥ जय गणेशाय नमः ॥",
     "subBlessing": "॥ शुभ विवाह ॥",
-    "sealMantra": "SHUBH VIVAH ✦ KUNDAN & ANKITA ✦ 1 – 5 DECEMBER 2026 ✦",
+    "sealMantra": "SHUBH VIVAH ✦ KUNDAN & ANKITA ✦ 30 NOV – 7 DEC 2026 ✦",
     "sealTap": "Tap to open",
     "gateInviteHi": "आप सादर आमंत्रित हैं",
     "gateInviteEn": "You are cordially invited",
-    "gateDate": "1 – 5 December 2026",
+    "gateDate": "30 November – 7 December 2026",
     "eyebrow": "Together with their families",
     "invitationLine": "request the honour of your presence as they begin their forever",
     "dates": {
-      "ariaLabel": "Tuesday 1 to Saturday 5 December 2026",
-      "startDay": "Tue",
-      "startDate": "01",
-      "endDay": "Sat",
-      "endDate": "05",
-      "monthYear": "December 2026"
+      "ariaLabel": "Monday 30 November to Monday 7 December 2026",
+      "startDay": "Mon",
+      "startDate": "30",
+      "endDay": "Mon",
+      "endDate": "07",
+      "monthYear": "Nov – Dec 2026"
     }
   },
   "countdown": {
-    "target": "2026-12-01T11:00:00+05:30",
-    "note": "until the haldi begins · Tuesday, 1 December"
+    "target": "2026-11-30T17:00:00+05:30",
+    "note": "until the tilak begins · Monday, 30 November"
   },
   "venue": {
-    "name": "Krishnam Resort & Marriage Garden",
-    "address": "Damoh, Madhya Pradesh",
-    "mapUrl": "https://maps.app.goo.gl/imVwWHP4Yv332h2F8"
+    "name": "Wedding Celebrations · Jharkhand",
+    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Baghmara Thakur bari, Baghmara (828306)\n7 Dec (Barat): Baba Baidyanath Temple Campus, Deoghar (814112)"
   },
   "days": [
-    // Day 1: Haldi (01 Dec)
-    // Day 2: Mehandi (02 Dec)
-    // Day 3: Shaadi (03 Dec)
-    // Day 5: Reception (05 Dec)
+    // Day 1: Tilak (30 Nov) - The Riwaaz, Katras
+    // Day 2: Haldi (05 Dec) - Baghmara Thakur bari
+    // Day 3: Mehandi & Sangeet (06 Dec) - Baghmara Thakur bari
+    // Day 4: Barat & Shubh Vivah (07 Dec) - Baba Baidyanath Mandir Campus, Deoghar
   ]
 }
 ```

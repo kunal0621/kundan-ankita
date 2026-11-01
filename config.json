@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Kundan & Ankita · Shubh Vivah",
-    "description": "You are invited to the wedding celebrations of Kundan Singh & Ankita Singh · 1–5 December 2026",
+    "description": "You are invited to the wedding celebrations of Kundan Singh & Ankita Singh · 30 November – 7 December 2026",
     "ogTitle": "Kundan & Ankita · Shubh Vivah",
-    "ogDescription": "Haldi, Mehandi, Shaadi & Reception · 1–5 December 2026"
+    "ogDescription": "Tilak, Haldi, Mehandi & Barat · 30 November – 7 December 2026"
   },
   "couple": {
     "groom": {
@@ -25,41 +25,88 @@
   "wedding": {
     "topBlessing": "॥ जय गणेशाय नमः ॥",
     "subBlessing": "॥ शुभ विवाह ॥",
-    "sealMantra": "SHUBH VIVAH ✦ KUNDAN & ANKITA ✦ 1 – 5 DECEMBER 2026 ✦",
+    "sealMantra": "SHUBH VIVAH ✦ KUNDAN & ANKITA ✦ 30 NOV – 7 DEC 2026 ✦",
     "sealTap": "Tap to open",
     "gateInviteHi": "आप सादर आमंत्रित हैं",
     "gateInviteEn": "You are cordially invited",
-    "gateDate": "1 – 5 December 2026",
+    "gateDate": "30 November – 7 December 2026",
     "eyebrow": "Together with their families",
     "invitationLine": "request the honour of your presence as they begin their forever",
     "eventsIntro": "Four joyous days of colour, music, traditions and blessings. We would love for you to be there for every moment.",
     "dates": {
-      "ariaLabel": "Tuesday 1 to Saturday 5 December 2026",
-      "startDay": "Tue",
-      "startDate": "01",
-      "endDay": "Sat",
-      "endDate": "05",
-      "monthYear": "December 2026"
+      "ariaLabel": "Monday 30 November to Monday 7 December 2026",
+      "startDay": "Mon",
+      "startDate": "30",
+      "endDay": "Mon",
+      "endDate": "07",
+      "monthYear": "Nov – Dec 2026"
     }
   },
   "countdown": {
-    "target": "2026-12-01T11:00:00+05:30",
-    "note": "until the haldi begins · Tuesday, 1 December"
+    "target": "2026-11-30T17:00:00+05:30",
+    "note": "until the tilak begins · Monday, 30 November"
   },
   "venue": {
-    "name": "Wedding Festivities · Dhanbad, Jharkhand",
-    "address": "Day 1 & 2 (Haldi & Mehandi): Harina Baghan Colony, Harina Basti (828306)\nDay 3 (Shaadi): Phusbunglow, Bhaga More (828301)\nDay 5 (Grand Reception): Dumra (828306)",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=RC97%2BC42%2C+Phusbunglow%2C+Bhaga+More%2C+Jharkhand+828301"
+    "name": "Wedding Celebrations · Jharkhand",
+    "address": "30 Nov (Tilak): The Riwaaz - Banquet, Katras (828114)\n5 & 6 Dec (Haldi & Mehandi): Baghmara Thakur bari, Baghmara (828306)\n7 Dec (Barat): Baba Baidyanath Temple Campus, Deoghar (814112)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Riwaaz+-+Banquet%2C+Shyamdih+Chowk%2C+Katras%2C+Jharkhand+828114",
+    "locations": [
+      {
+        "label": "30 Nov · Tilak Ceremony",
+        "venue": "The Riwaaz - Banquet, Shyamdih Chowk, Katras, Jharkhand 828114",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Riwaaz+-+Banquet%2C+Shyamdih+Chowk%2C+Katras%2C+Jharkhand+828114"
+      },
+      {
+        "label": "5 Dec · Haldi Ceremony",
+        "venue": "Baghmara Thakur bari, Q6V3+CP6, Baghmara, Jharkhand 828306",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Q6V3%2BCP6%2C+Baghmara+Thakur+bari%2C+Baghmara%2C+Jharkhand+828306"
+      },
+      {
+        "label": "6 Dec · Mehandi & Sangeet",
+        "venue": "Baghmara Thakur bari, Q6V3+CP6, Baghmara, Jharkhand 828306",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Q6V3%2BCP6%2C+Baghmara+Thakur+bari%2C+Baghmara%2C+Jharkhand+828306"
+      },
+      {
+        "label": "7 Dec · Barat & Shubh Vivah",
+        "venue": "Baba Baidyanath Temple Administrative Building, Baba Mandir Campus, Shivganga Muhalla, Deoghar, Jharkhand 814112",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Baba+Baidyanath+Temple+Administrative+Building%2C+Baba+Mandir+Campus%2C+Shivganga+Muhalla%2C+Deoghar%2C+Jharkhand+814112"
+      }
+    ]
   },
   "days": [
     {
-      "iso": "20261201",
-      "num": "01",
-      "month": "December",
-      "weekday": "Tuesday",
-      "label": "Day One",
+      "iso": "20261130",
+      "num": "30",
+      "month": "November",
+      "weekday": "Monday",
+      "label": "Tilak Ceremony",
       "tabLabel": "Day 1",
-      "tabSub": "Haldi · 1 Dec",
+      "tabSub": "Tilak · 30 Nov",
+      "events": [
+        {
+          "icon": "rings",
+          "when": "Evening",
+          "time": "05:00 PM onwards",
+          "title": "Tilak Ceremony",
+          "hindi": "शुभ तिलक समारोह",
+          "accent": "#d98200",
+          "soft": "#fff0c9",
+          "desc": "The auspicious Tilak ceremony marking the formal acceptance, sacred rituals and heartfelt blessings between both families.",
+          "descHi": "शुभ मुहूर्त में पारंपरिक विधि-विधान, टीका एवं मंगल आशीर्वाद के साथ वैवाहिक उत्सव का पावन शुभारंभ।",
+          "dress": "Festive Ethnic & Traditional Attire",
+          "venue": "The Riwaaz - Banquet, Shyamdih Chowk, Katras, Jharkhand 828114",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Riwaaz+-+Banquet%2C+Shyamdih+Chowk%2C+Katras%2C+Jharkhand+828114"
+        }
+      ]
+    },
+    {
+      "iso": "20261205",
+      "num": "05",
+      "month": "December",
+      "weekday": "Saturday",
+      "label": "Haldi Ceremony",
+      "tabLabel": "Day 2",
+      "tabSub": "Haldi · 5 Dec",
       "events": [
         {
           "icon": "haldi",
@@ -67,24 +114,24 @@
           "time": "11:00 AM onwards",
           "title": "Haldi Ceremony",
           "hindi": "हल्दी की रस्म",
-          "accent": "#d98200",
+          "accent": "#e09000",
           "soft": "#fff0c9",
           "desc": "A sunshine-soaked celebration of turmeric, fragrant marigolds, and joyous laughter as loved ones bless the couple with a golden glow.",
           "descHi": "हल्दी, गेंदे के फूलों और हँसी-ख़ुशी से भरी पावन रस्म, जब सभी प्रियजन मिलकर वर-वधू को शुभ आशीर्वाद व स्नेह देंगे।",
           "dress": "Shades of Yellow",
-          "venue": "Harina Baghan Colony, Harina Basti, Jharkhand 828306",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=R646%2BVRV%2C+Harina+Baghan+Colony%2C+Harina+Basti%2C+Jharkhand+828306"
+          "venue": "Baghmara Thakur bari, Q6V3+CP6, Baghmara, Jharkhand 828306",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Q6V3%2BCP6%2C+Baghmara+Thakur+bari%2C+Baghmara%2C+Jharkhand+828306"
         }
       ]
     },
     {
-      "iso": "20261202",
-      "num": "02",
+      "iso": "20261206",
+      "num": "06",
       "month": "December",
-      "weekday": "Wednesday",
-      "label": "Day Two",
-      "tabLabel": "Day 2",
-      "tabSub": "Mehandi · 2 Dec",
+      "weekday": "Sunday",
+      "label": "Mehandi & Sangeet",
+      "tabLabel": "Day 3",
+      "tabSub": "Mehandi · 6 Dec",
       "events": [
         {
           "icon": "mehandi",
@@ -97,58 +144,33 @@
           "desc": "An enchanting evening of intricate henna artistry, foot-tapping beats of the dhol, dance performances, and musical celebration with family and friends.",
           "descHi": "हाथों में रचने वाली मेहंदी के रंगों, ढोल की थाप, मधुर संगीत और अपनों के संग झूमते-गाते जश्न की एक हसीन व यादगार शाम।",
           "dress": "Festive Green & Traditional Glam",
-          "venue": "Harina Baghan Colony, Harina Basti, Jharkhand 828306",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=R646%2BVRV%2C+Harina+Baghan+Colony%2C+Harina+Basti%2C+Jharkhand+828306"
+          "venue": "Baghmara Thakur bari, Q6V3+CP6, Baghmara, Jharkhand 828306",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Q6V3%2BCP6%2C+Baghmara+Thakur+bari%2C+Baghmara%2C+Jharkhand+828306"
         }
       ]
     },
     {
-      "iso": "20261203",
-      "num": "03",
+      "iso": "20261207",
+      "num": "07",
       "month": "December",
-      "weekday": "Thursday",
-      "label": "Day Three",
-      "tabLabel": "Day 3",
-      "tabSub": "Shaadi · 3 Dec",
-      "events": [
-        {
-          "icon": "fire",
-          "when": "Evening",
-          "time": "07:00 PM onwards",
-          "title": "Shaadi & Phere (Wedding)",
-          "hindi": "शुभ विवाह एवं सात फेरे",
-          "accent": "#c4321a",
-          "soft": "#fde0d6",
-          "desc": "The sacred union: holy vows taken around the sacred fire, sealed with Vedic rituals, blessings of the elders and the divine.",
-          "descHi": "पवित्र अग्नि के साक्षी में सात फेरों का पावन बंधन, वैदिक मंत्रोच्चार और बड़ों व ईश्वर के मंगल आशीर्वाद के साथ नवजीवन का शुभारंभ।",
-          "dress": "Royal Indian Ethnic & Traditional Finery",
-          "venue": "Phusbunglow, Bhaga More, Jharkhand 828301",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=RC97%2BC42%2C+Phusbunglow%2C+Bhaga+More%2C+Jharkhand+828301"
-        }
-      ]
-    },
-    {
-      "iso": "20261205",
-      "num": "05",
-      "month": "December",
-      "weekday": "Saturday",
-      "label": "Day Five",
-      "tabLabel": "Day 5",
-      "tabSub": "Reception · 5 Dec",
+      "weekday": "Monday",
+      "label": "Barat & Shubh Vivah",
+      "tabLabel": "Day 4",
+      "tabSub": "Barat · 7 Dec",
       "events": [
         {
           "icon": "baraat",
           "when": "Evening",
-          "time": "07:30 PM onwards",
-          "title": "Grand Wedding Reception",
-          "hindi": "भव्य स्वागत समारोह एवं प्रीतिभोज",
-          "accent": "#6b1028",
-          "soft": "#f9e6ec",
-          "desc": "A royal evening of felicitations, fine dining, and joyous celebration welcoming the newly married couple as they begin their journey together.",
-          "descHi": "नवदम्पति के सम्मान में आयोजित एक भव्य एवं शाही शाम, स्वादिष्ट प्रीतिभोज और परिजनों व स्नेहीजनों के मंगल आशीर्वाद का उत्सव।",
-          "dress": "Royal Formal / Black Tie & Glam",
-          "venue": "Dumra, Jharkhand 828306",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dumra%2C+Jharkhand+828306"
+          "time": "07:00 PM onwards",
+          "title": "Barat & Shubh Vivah",
+          "hindi": "शुभ बारात एवं पाणिग्रहण संस्कार",
+          "accent": "#c4321a",
+          "soft": "#fde0d6",
+          "desc": "The grand Barat procession followed by sacred wedding vows and Vedic rituals in the holy aura of Baba Baidyanath Dham.",
+          "descHi": "बाबा बैद्यनाथ जी के पावन धाम में भव्य बारात आगमन, वरमाला एवं सात फेरों के साथ पावन परिणय सूत्र में बंधन।",
+          "dress": "Royal Indian Ethnic & Traditional Finery",
+          "venue": "Baba Baidyanath Temple Administrative Building, Baba Mandir Campus, Shivganga Muhalla, Deoghar, Jharkhand 814112",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Baba+Baidyanath+Temple+Administrative+Building%2C+Baba+Mandir+Campus%2C+Shivganga+Muhalla%2C+Deoghar%2C+Jharkhand+814112"
         }
       ]
     }
