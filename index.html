@@ -317,6 +317,146 @@ a.venue-ico{display:grid}
 .toast{position:fixed;left:50%;bottom:calc(28px + var(--safe-b));transform:translate(-50%,16px);opacity:0;z-index:70;background:var(--gold-l);color:#2a1406;padding:10px 18px;border-radius:999px;font-size:13px;transition:.4s var(--ease);pointer-events:none;white-space:nowrap}
 .toast.show{opacity:1;transform:translate(-50%,0)}
 
+/* ---------- Share Dialog ---------- */
+.share-backdrop{
+  position:fixed;inset:0;z-index:120;
+  background:rgba(20,2,8,.72);
+  backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  display:flex;align-items:flex-end;justify-content:center;
+  padding-bottom:var(--safe-b);
+}
+body.share-open{overflow:hidden}
+.share-sheet{
+  width:100%;max-width:480px;
+  background:linear-gradient(160deg,#2a0a12 0%,#1f0308 55%,#2d0c16 100%);
+  border-radius:28px 28px 0 0;
+  padding:0 0 calc(28px + var(--safe-b));
+  box-shadow:0 -4px 60px rgba(0,0,0,.7),0 -1px 0 rgba(226,173,79,.22);
+  overflow:hidden;
+}
+.share-drag-bar{
+  width:40px;height:4px;border-radius:2px;
+  background:rgba(226,173,79,.35);
+  margin:14px auto 0;
+}
+
+/* Preview card */
+.share-preview{
+  margin:20px 20px 0;
+  border-radius:16px;overflow:hidden;
+}
+.share-preview-bg{
+  background:linear-gradient(145deg,#3d0d1a 0%,#1f0308 50%,#4a1020 100%);
+  border:1px solid rgba(226,173,79,.3);
+  border-radius:16px;
+  padding:24px 20px 20px;
+  position:relative;
+  text-align:center;
+}
+.share-preview-corners{position:absolute;inset:0;pointer-events:none}
+.spc{position:absolute;width:22px;height:22px;border-color:var(--gold);border-style:solid;border-width:0;opacity:.6}
+.spc.tl{top:8px;left:8px;border-top-width:2px;border-left-width:2px;border-top-left-radius:6px}
+.spc.tr{top:8px;right:8px;border-top-width:2px;border-right-width:2px;border-top-right-radius:6px}
+.spc.bl{bottom:8px;left:8px;border-bottom-width:2px;border-left-width:2px;border-bottom-left-radius:6px}
+.spc.br{bottom:8px;right:8px;border-bottom-width:2px;border-right-width:2px;border-bottom-right-radius:6px}
+.share-pre-mantra{
+  font-family:var(--hindi);font-size:22px;color:var(--gold);
+  animation:spin-slow 12s linear infinite;display:inline-block;
+  margin-bottom:2px;
+}
+@keyframes spin-slow{0%{transform:rotate(-4deg) scale(1)} 50%{transform:rotate(4deg) scale(1.08)} 100%{transform:rotate(-4deg) scale(1)}}
+.share-pre-eye{
+  font-family:var(--hindi);font-size:11px;color:rgba(242,214,154,.65);
+  letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;
+}
+.share-pre-names{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  margin-bottom:8px;
+}
+.share-pre-groom,.share-pre-bride{
+  font-family:var(--serif);font-size:26px;font-weight:600;
+  color:var(--gold-l);line-height:1;
+}
+.share-pre-amp{
+  font-family:var(--serif);font-size:18px;color:var(--gold);
+  animation:pulse-amp 2.4s ease-in-out infinite;
+}
+@keyframes pulse-amp{0%,100%{transform:scale(1)} 50%{transform:scale(1.2) rotate(8deg)}}
+.share-pre-divider{
+  display:flex;align-items:center;gap:8px;
+  margin:6px auto 8px;width:140px;
+}
+.share-pre-divider span{flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(226,173,79,.5),transparent)}
+.share-pre-date{
+  font-family:var(--sans);font-size:11.5px;color:rgba(247,223,158,.75);
+  letter-spacing:.06em;margin-bottom:4px;
+}
+.share-pre-sub{
+  font-family:var(--serif);font-style:italic;font-size:13px;
+  color:rgba(242,214,154,.5);
+}
+
+/* Dialog header */
+.share-header{
+  padding:18px 24px 4px;text-align:center;
+}
+.share-title{
+  font-family:var(--serif);font-size:22px;font-weight:600;
+  color:var(--gold-l);margin-bottom:4px;
+}
+.share-sub{
+  font-family:var(--sans);font-size:12.5px;
+  color:rgba(247,223,158,.5);letter-spacing:.04em;
+}
+
+/* Share option buttons */
+.share-options{
+  display:flex;justify-content:center;gap:16px;
+  padding:20px 24px 10px;
+}
+.share-opt{
+  display:flex;flex-direction:column;align-items:center;gap:10px;
+  background:none;border:none;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  transition:transform .18s var(--ease);
+}
+.share-opt:active{transform:scale(.92)}
+.share-opt-ico{
+  width:60px;height:60px;border-radius:18px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:26px;position:relative;overflow:hidden;
+  transition:transform .2s var(--ease),box-shadow .2s;
+}
+.share-opt:hover .share-opt-ico{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.share-opt-ico.wa{background:linear-gradient(135deg,#25d366,#128c7e);color:#fff}
+.share-opt-ico.copy{background:linear-gradient(135deg,#e2ad4f,#b0823a);color:#fff}
+.share-opt-ico.more{background:linear-gradient(135deg,#c41e2a,#7a102a);color:#fff}
+.share-opt-ico svg{width:28px;height:28px;transition:opacity .2s,transform .2s}
+/* Copied tick animation */
+.share-opt-ico.copied::after{
+  content:'✓';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:26px;font-weight:700;color:#fff;
+  background:linear-gradient(135deg,#2f9a4c,#13877a);
+  border-radius:inherit;
+  animation:tick-pop .3s var(--ease) forwards;
+}
+@keyframes tick-pop{from{transform:scale(.4);opacity:0} to{transform:scale(1);opacity:1}}
+.share-opt-label{
+  font-family:var(--sans);font-size:12px;
+  color:rgba(247,223,158,.7);letter-spacing:.04em;
+}
+
+/* Close button */
+.share-close{
+  display:block;margin:12px auto 0;
+  font-family:var(--sans);font-size:14px;font-weight:500;
+  color:rgba(247,223,158,.45);letter-spacing:.06em;text-transform:uppercase;
+  padding:10px 32px;border-radius:999px;
+  border:1px solid rgba(226,173,79,.18);
+  transition:color .2s,border-color .2s,background .2s;
+}
+.share-close:hover{color:var(--gold-l);border-color:rgba(226,173,79,.4);background:rgba(226,173,79,.06)}
+
 
 /* ---------- loader (Gond medallion) ---------- */
 #loader{position:fixed;inset:0;z-index:200;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;color:var(--cream);
@@ -696,6 +836,65 @@ a.venue-ico{display:grid}
 </main>
 
 <div class="toast" id="toast" role="status"></div>
+
+<!-- ============ SHARE DIALOG ============ -->
+<div class="share-backdrop" id="shareBackdrop" role="dialog" aria-modal="true" aria-label="Share invitation" hidden>
+  <div class="share-sheet" id="shareSheet">
+    <div class="share-drag-bar"></div>
+
+    <!-- Invitation preview card -->
+    <div class="share-preview" id="sharePreview">
+      <div class="share-preview-bg">
+        <div class="share-preview-corners">
+          <span class="spc tl"></span><span class="spc tr"></span>
+          <span class="spc bl"></span><span class="spc br"></span>
+        </div>
+        <div class="share-preview-inner">
+          <p class="share-pre-mantra">ॐ</p>
+          <p class="share-pre-eye">शुभ विवाह</p>
+          <div class="share-pre-names" id="sharePreNames"></div>
+          <div class="share-pre-divider">
+            <span></span><svg viewBox="0 0 24 24" width="14" height="14"><path d="M12 2l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z" fill="#e2ad4f"/></svg><span></span>
+          </div>
+          <p class="share-pre-date" id="sharePreDate"></p>
+          <p class="share-pre-sub">You're warmly invited</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="share-header">
+      <h3 class="share-title">Share Invitation</h3>
+      <p class="share-sub">Spread the joy &amp; invite loved ones</p>
+    </div>
+
+    <!-- Share option buttons -->
+    <div class="share-options" id="shareOptions">
+      <button class="share-opt" id="shareWhatsApp" data-label="WhatsApp">
+        <span class="share-opt-ico wa">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.057 23.428a.5.5 0 0 0 .6.628l5.699-1.49A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 0 1-5.032-1.383l-.361-.214-3.741.98.998-3.648-.235-.374A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.43-4.388 9.818-9.818 9.818z"/></svg>
+        </span>
+        <span class="share-opt-label">WhatsApp</span>
+      </button>
+
+      <button class="share-opt" id="shareCopy" data-label="Copy Link">
+        <span class="share-opt-ico copy">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        </span>
+        <span class="share-opt-label">Copy Link</span>
+      </button>
+
+      <button class="share-opt" id="shareNative" data-label="More">
+        <span class="share-opt-ico more">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+        </span>
+        <span class="share-opt-label">More</span>
+      </button>
+    </div>
+
+    <button class="share-close" id="shareClose" aria-label="Close">Close</button>
+  </div>
+</div>
 
 <script id="wedding-config-data" type="application/json">
 {
@@ -1809,24 +2008,115 @@ function initCalendar(c) {
   });
 }
 
-/* ---------- Share ---------- */
+/* ---------- Share Dialog ---------- */
 function initShare(c) {
   const shareBtn = $('#shareBtn');
-  if (!shareBtn) return;
-  shareBtn.addEventListener('click', async () => {
-    const coupleName = c.couple ? `${c.couple.groom.name} & ${c.couple.bride.name}` : 'Wedding';
-    const data = {
-      title: c.meta?.title || `${coupleName} · Shubh Vivah`,
-      text: c.meta?.description || `You are invited to the wedding of ${coupleName}`,
-      url: location.href
-    };
+  const backdrop  = $('#shareBackdrop');
+  const sheet     = $('#shareSheet');
+  if (!shareBtn || !backdrop || !sheet) return;
+
+  const coupleName = c.couple ? `${c.couple.groom.name} & ${c.couple.bride.name}` : 'Wedding';
+  const shareUrl   = location.href;
+  const shareText  = c.meta?.description || `You are invited to the wedding of ${coupleName}`;
+
+  /* ---- Populate preview card ---- */
+  const preNames = $('#sharePreNames');
+  if (preNames && c.couple) {
+    preNames.innerHTML = `<span class="share-pre-groom">${esc(c.couple.groom.heroName || c.couple.groom.name)}</span><span class="share-pre-amp">&amp;</span><span class="share-pre-bride">${esc(c.couple.bride.heroName || c.couple.bride.name)}</span>`;
+  }
+  const preDate = $('#sharePreDate');
+  if (preDate && c.countdown?.target) {
+    const d = new Date(c.countdown.target);
+    preDate.textContent = d.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  /* ---- Open / close helpers ---- */
+  let isOpen = false;
+
+  function openDialog() {
+    if (isOpen) return;
+    isOpen = true;
+    backdrop.hidden = false;
+    document.body.classList.add('share-open');
+
+    if (HAS_M && M.animate) {
+      const { animate, stagger } = M;
+      animate(backdrop, { opacity: [0, 1] }, { duration: .3 });
+      animate(sheet, { y: ['100%', '0%'] }, { ...spring(260, 28) });
+      animate('#sharePreview', { opacity: [0, 1], scale: [.88, 1], y: [20, 0] }, { ...spring(220, 20), at: .12 });
+      animate('#shareOptions .share-opt',
+        { opacity: [0, 1], y: [30, 0], scale: [.85, 1] },
+        { duration: .55, ease: EASE, delay: stagger(.07, { startDelay: .22 }) });
+      animate('.share-header', { opacity: [0, 1], y: [14, 0] }, { duration: .5, ease: EASE, delay: .18 });
+    }
+
+    /* mini petal burst from share button */
+    if (!reduced) Petals.burst(16);
+  }
+
+  function closeDialog() {
+    if (!isOpen) return;
+    isOpen = false;
+
+    if (HAS_M && M.animate) {
+      const { animate } = M;
+      Promise.all([
+        animate(sheet,    { y: '100%' },  { ...spring(300, 32) }).finished,
+        animate(backdrop, { opacity: 0 }, { duration: .3 }).finished
+      ]).then(() => { backdrop.hidden = true; document.body.classList.remove('share-open'); });
+    } else {
+      backdrop.hidden = true;
+      document.body.classList.remove('share-open');
+    }
+  }
+
+  shareBtn.addEventListener('click', openDialog);
+  $('#shareClose').addEventListener('click', closeDialog);
+  backdrop.addEventListener('click', e => { if (e.target === backdrop) closeDialog(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && isOpen) closeDialog(); });
+
+  /* ---- Swipe-down to close ---- */
+  let dragStart = null;
+  sheet.addEventListener('pointerdown', e => { dragStart = e.clientY; });
+  sheet.addEventListener('pointermove', e => {
+    if (dragStart === null) return;
+    const dy = e.clientY - dragStart;
+    if (dy > 0) sheet.style.transform = `translateY(${dy}px)`;
+  });
+  sheet.addEventListener('pointerup', e => {
+    const dy = e.clientY - (dragStart ?? e.clientY);
+    dragStart = null;
+    sheet.style.transform = '';
+    if (dy > 90) closeDialog();
+  });
+
+  /* ---- Share option actions ---- */
+  $('#shareWhatsApp').addEventListener('click', () => {
+    const msg = encodeURIComponent(`${shareText}\n${shareUrl}`);
+    window.open(`https://wa.me/?text=${msg}`, '_blank', 'noopener');
+    closeDialog();
+  });
+
+  $('#shareCopy').addEventListener('click', async () => {
     try {
-      if (navigator.share) await navigator.share(data);
-      else { await navigator.clipboard.writeText(location.href); toast('Invitation link copied'); }
+      await navigator.clipboard.writeText(shareUrl);
+      /* animate the copy icon to a tick */
+      const ico = $('#shareCopy .share-opt-ico');
+      ico.classList.add('copied');
+      setTimeout(() => ico.classList.remove('copied'), 2000);
+      toast('Link copied to clipboard! 🎉');
+    } catch {
+      toast('Copy the link from the address bar');
+    }
+  });
+
+  $('#shareNative').addEventListener('click', async () => {
+    const data = { title: c.meta?.title || `${coupleName} · Shubh Vivah`, text: shareText, url: shareUrl };
+    try {
+      if (navigator.share) { await navigator.share(data); closeDialog(); }
+      else { await navigator.clipboard.writeText(shareUrl); toast('Link copied!'); }
     } catch (e) {
-      if (e.name !== 'AbortError') {
-        await navigator.clipboard.writeText(location.href); toast('Invitation link copied');
-      }
+      if (e.name !== 'AbortError') { await navigator.clipboard.writeText(shareUrl); toast('Link copied!'); }
     }
   });
 }
